@@ -14,7 +14,7 @@ const Title = () => {
 
 function App() {
   const [counter, setCounter] = useState(0);
-
+  
   const handleClick1 = () => {
     setCounter(counter + 1);
   };
@@ -36,7 +36,7 @@ function App() {
       </div>
       <div className="buttons">
         <button style={{
-          fontSize: "60%",
+          fontSize: "100%",
           position: "relative",
           top: "20vh",
           marginRight: "5px",
@@ -48,7 +48,7 @@ function App() {
         >
           Plus 1</button>
           <button style={{
-            fontSize: "60%",
+            fontSize: "100%",
             position: "relative",
             top: "20vh",
             marginLeft: "5px",
