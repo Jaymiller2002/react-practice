@@ -61,7 +61,7 @@ function App() {
             Minus 1
           </button>
       </div>
-      <Link className="text-light" to='/about'>About</Link>
+      <Link className="text-light" to='/about'>{'About ->'}</Link>
       <div></div>
       <Link className="text-light" to='/Contact'>{'Contact ->'}</Link>
       <Title />
