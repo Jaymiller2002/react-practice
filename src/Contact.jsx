@@ -4,10 +4,10 @@ import { Container } from "react-bootstrap"
 
 function Contact() {
   return (
-    <div className="p-5">
-      <Link to='/'>{'<- Counter'}</Link>
+    <div className="p-5 bg-success">
+      <Link className="text-light" to='/'>{'<- Counter'}</Link>
       <div></div>
-      <Link to='/About'>{'<- About'}</Link>
+      <Link className="text-light" to='/About'>{'<- About'}</Link>
       <h1>Contact Page</h1>
       <div>
         <Container maxWidth = "xs">
