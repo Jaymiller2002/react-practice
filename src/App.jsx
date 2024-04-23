@@ -14,13 +14,14 @@ const Title = () => {
 
 function App() {
   const [counter, setCounter] = useState(0);
-  
+
   const handleClick1 = () => {
     setCounter(counter + 1);
   };
   const handleClick2 = () => {
     setCounter(counter -1);
   };
+
   return (
     <div 
       className="bg-primary h-100 p-5"
